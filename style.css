@@ -1,0 +1,59 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+
+.header{
+    background-color: white;
+    height: 75px;
+    position: relative;
+    top: -21px;
+}
+
+.header h1{
+    text-align: center;
+    line-height: 75px;
+}
+
+.photo1{
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.photo1 h3{
+    margin: 0;
+    margin-left: 30px;
+}
+
+.photo1 span{
+    color: lightgray;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.photo1-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photo1 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+
+.photo1 p {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}   
